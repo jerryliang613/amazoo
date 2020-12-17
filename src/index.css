@@ -1,12 +1,21 @@
+* {
+  margin: 0;
+}
 body {
+  background-color: rgb(234,237,237);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 900px;
 }
-
+a:hover, button:hover{
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

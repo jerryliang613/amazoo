@@ -1,0 +1,29 @@
+.line{
+    height: 44px;
+    width: 80%;
+    margin-bottom: -20px;
+    background:linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent)
+}
+.line:after{
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
+.login_row{ 
+    text-align: center;
+}
+form>h5{
+    margin-top: 10px;
+}
+form>label{
+    color: #c40000;
+    font-style: italic;
+    opacity: 0.8;
+}
+small>span{
+    margin-right: 5px;
+}

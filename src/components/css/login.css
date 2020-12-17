@@ -1,0 +1,159 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+}
+.login_form>form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.login_form>form>input, button{
+    margin-bottom: 5px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid lightgray
+}
+.login_form>form>input[type = 'submit']{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.formtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.formtitle>h2{
+    text-align: left;
+    font-weight: 700;
+}
+form>h5{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.login_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+}
+.login_row>a>img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.login_signin{
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.login_signin:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.newaccount{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new{
+    display: flex;
+    align-items: center;
+}
+.new>span:before{
+    display: inline-block;
+    content: '';
+    background-color: lightgray;
+    height: 1px;
+    width: 80px;
+    margin-right: 10px;
+
+}
+.new>span:after{
+    display: inline-block;
+    content: '';
+    background-color: lightgray;
+    height: 1px;
+    width: 80px;
+    margin-left: 10px;
+
+}
+.login_signin{
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    height: 30px;
+    cursor: pointer;
+}
+.login_register{
+    background:linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid lightgray
+}
+.newaccount>a{
+    width: 100%;
+}
+
+form>.help_dropdown{
+    padding-left: 10px;
+}
+
+form>.help_condition{
+    margin-bottom: 20px;
+}
+
+.error{
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid #c40000;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.error>.warning, .error_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.error_content>h3{
+    color: #c40000;
+    font-weight: 600;
+}
+.error>.warning{
+    color: #c40000;
+    padding: 10px;
+    margin-right: 20px;
+}

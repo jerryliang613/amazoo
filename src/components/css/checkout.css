@@ -1,0 +1,79 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+}
+.checkout_left {
+    position: relative;
+    display: flex;
+    flex: 4;
+    background-color: white;
+    margin-right: 20px;
+    padding: 10px 20px;
+    min-height: 200px;
+    flex-direction: column;
+    height: 100%;
+
+}
+.checkout_left_title{
+    border-bottom: solid 1px #111;
+}
+.checkout_left_title, .checkout_subtotal_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.checkout_left_footer {
+
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.checkout_right{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    max-width: 360px;
+}
+.checkout_subtotal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.checkout_subtotal>button{
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    height: 30px;
+    width: 75%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto
+}
+.checkout_subtotal>button:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.subtotal_gift{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .checkout_left{
+        min-width: 360px;
+    }
+    .checkout_right{
+        min-width: 200px;
+    }
+    
+}
