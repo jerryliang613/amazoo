@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/amazoo/static/css/main.d937bed9.chunk.css",
-    "main.js": "/amazoo/static/js/main.ec9e8e67.chunk.js",
-    "main.js.map": "/amazoo/static/js/main.ec9e8e67.chunk.js.map",
+    "main.js": "/amazoo/static/js/main.70515faf.chunk.js",
+    "main.js.map": "/amazoo/static/js/main.70515faf.chunk.js.map",
     "runtime-main.js": "/amazoo/static/js/runtime-main.7b9a2135.js",
     "runtime-main.js.map": "/amazoo/static/js/runtime-main.7b9a2135.js.map",
     "static/js/2.803fc8a0.chunk.js": "/amazoo/static/js/2.803fc8a0.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.7b9a2135.js",
     "static/js/2.803fc8a0.chunk.js",
     "static/css/main.d937bed9.chunk.css",
-    "static/js/main.ec9e8e67.chunk.js"
+    "static/js/main.70515faf.chunk.js"
   ]
 }
