@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amazoo/static/css/main.c8923edd.chunk.css",
+    "main.css": "/amazoo/static/css/main.d937bed9.chunk.css",
     "main.js": "/amazoo/static/js/main.ec9e8e67.chunk.js",
     "main.js.map": "/amazoo/static/js/main.ec9e8e67.chunk.js.map",
     "runtime-main.js": "/amazoo/static/js/runtime-main.7b9a2135.js",
@@ -10,7 +10,7 @@
     "static/js/3.28c62d6d.chunk.js": "/amazoo/static/js/3.28c62d6d.chunk.js",
     "static/js/3.28c62d6d.chunk.js.map": "/amazoo/static/js/3.28c62d6d.chunk.js.map",
     "index.html": "/amazoo/index.html",
-    "static/css/main.c8923edd.chunk.css.map": "/amazoo/static/css/main.c8923edd.chunk.css.map",
+    "static/css/main.d937bed9.chunk.css.map": "/amazoo/static/css/main.d937bed9.chunk.css.map",
     "static/js/2.803fc8a0.chunk.js.LICENSE.txt": "/amazoo/static/js/2.803fc8a0.chunk.js.LICENSE.txt",
     "static/media/amazon-dark.2ffa428e.png": "/amazoo/static/media/amazon-dark.2ffa428e.png",
     "static/media/amazon.46e0691b.png": "/amazoo/static/media/amazon.46e0691b.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b9a2135.js",
     "static/js/2.803fc8a0.chunk.js",
-    "static/css/main.c8923edd.chunk.css",
+    "static/css/main.d937bed9.chunk.css",
     "static/js/main.ec9e8e67.chunk.js"
   ]
 }
