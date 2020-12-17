@@ -22,7 +22,7 @@ const Header = () => {
             type: 'LOG_OUT'
         })
         logout('user');
-        window.location = '/';
+        window.location = '/amazoo';
     }
     return (
         <div className="header">

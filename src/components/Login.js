@@ -51,8 +51,8 @@ const Login = () => {
                         email: user.email
                     });
                     saveLoginUser(user.email);
-                    if (!cart && !viewed) window.location = '/';
-                    history.push('/');
+                    if (!cart && !viewed) window.location = '/amazoo';
+                    history.push('/amazoo');
                 }
 
             )

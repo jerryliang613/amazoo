@@ -33,6 +33,10 @@ function App() {
             <Header />
             <ProductDetail />
           </Route>
+          <Route path='/amazoo' >
+            <Header />
+            <Home />
+          </Route>
           <Route path='/' >
             <Header />
             <Home />
